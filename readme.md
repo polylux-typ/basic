@@ -10,8 +10,8 @@ Use via
 typst init @preview/basic-polylux:0.1.0 your-cool-project
 ```
 
-A `slides.typ` file will be created for you and contains all the design elements
-you can use.
+A `slides.typ` file will be created for you and contains some suggestions for
+how you might set up your slides.
 
 By default, it uses the fonts Lato, and Lete Sans Math.
 I think this is a good suggestion to start with.
