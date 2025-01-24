@@ -2,7 +2,7 @@
 
 #set page(
   paper: "presentation-16-9",
-  footer: align(right, text(size: .8em, slide-number)),
+  footer: align(right, text(size: .8em, toolbox.slide-number)),
   margin: (bottom: 2em, rest: 1em),
 )
 #set text(
@@ -42,7 +42,7 @@
 #slide[
   = Second slide
 
-  #grid(columns: (1fr, 1fr), gutter: 1em)[
+  #toolbox.side-by-side[
     #rect(width: 100%, height: 1fr)[(imagine this being an image)]
   ][
     On the left, you see a #only(2)[not so] beautiful image.
