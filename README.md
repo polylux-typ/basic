@@ -7,7 +7,7 @@ A starter template for creating presentation slides with Typst and
 
 Use via
 ```sh
-typst init @preview/basic-polylux:0.1.0 your-cool-project
+typst init @preview/basic-polylux your-cool-project
 ```
 
 A `slides.typ` file will be created for you and contains some suggestions for
